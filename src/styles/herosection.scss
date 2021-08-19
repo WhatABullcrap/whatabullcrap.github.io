@@ -1,0 +1,8 @@
+
+@import "./variables.scss";
+
+.bgimage{
+	background-image: $hero-bg;
+	background-size: cover;
+	background-position-y: 60%;
+}

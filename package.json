@@ -1,0 +1,41 @@
+{
+  "name": "whatabullcrap.github.io",
+  "version": "1.0.0",
+  "private": false,
+  "description": "website for the whatabullcrap",
+  "author": "foxnacity",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "env-cmd -f .env.development gatsby develop -o",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "dependencies": {
+    "@fontsource/rubik": "^4.2.2",
+    "env-cmd": "^10.1.0",
+    "gatsby": "^3.11.1",
+    "gatsby-background-image": "^1.5.3",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-image": "^1.11.0",
+    "gatsby-plugin-manifest": "^3.11.0",
+    "gatsby-plugin-react-helmet": "^4.11.0",
+    "gatsby-plugin-sass": "^4.11.0",
+    "gatsby-plugin-sharp": "^3.11.0",
+    "gatsby-remark-images": "^5.8.0",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-source-filesystem": "^3.11.0",
+    "gatsby-transformer-remark": "^4.8.0",
+    "gatsby-transformer-sharp": "^3.11.0",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.37.5",
+    "styled-components": "^5.3.0"
+  }
+}
