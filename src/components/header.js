@@ -7,13 +7,13 @@ import logo from '../images/svg/wabVectorLogoOriginal.svg'
 
 const Head = styled.nav`
     width: 100%;
-		background-color: ${colors.red};
+		background-color: ${colors.darkOrange};
     position: fixed;
     top: 0;
 		padding: 2rem;
     display: flex;
     justify-content: center;
-    z-index: 10;
+    z-index: 60;
     transition: top 0.3s;
 	`
 const HeaderContent = styled.div`

@@ -16,28 +16,11 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "pages",
-        path: "./src/pages/",
-      },
-      __key: "pages",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "posts",
-        path: "./src/posts/"
-      },
-      __key: "posts"
+        name: `src`,
+        path: `${__dirname}/src/`,
+      }
     },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

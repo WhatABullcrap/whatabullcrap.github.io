@@ -14,7 +14,7 @@ align-items: center;`
 
 const Main = styled.main`
   width: 100%;
-  height: fit-content;
+  min-height: 100vh;
   ${flexCenter}
   background: linear-gradient(180deg, ${colors.orange}, ${colors.red});
 `

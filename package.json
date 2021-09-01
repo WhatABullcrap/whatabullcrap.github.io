@@ -17,6 +17,11 @@
   },
   "dependencies": {
     "@fontsource/rubik": "^4.2.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "env-cmd": "^10.1.0",
     "gatsby": "^3.11.1",
     "gatsby-background-image": "^1.5.3",

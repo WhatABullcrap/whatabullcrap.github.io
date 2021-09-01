@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled, {keyframes} from 'styled-components'
-import '../styles/herosection.scss'
 import fullLogo from '../images/svg/fullLogo.svg'
 import colors from '../data/colors'
 import arrow from '../images/svg/Arrow.svg'
